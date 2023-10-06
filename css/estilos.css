@@ -1,0 +1,18 @@
+@font-face {
+    font-family:'Aleo-Italic-Variable' ; 
+    src: url('/bootstrap/assets/fonts/Aleo-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Onest-Variable';
+    src: url(/bootstrap/assets/fonts/Onest-VariableFont_wght.ttf);
+}
+
+header{
+    background-color: #f03786;
+ font-family: 'Onest-Variable';
+}
+body{
+    font-family: 'Aleo-Italic-Variable';
+    color: black;
+}
+
