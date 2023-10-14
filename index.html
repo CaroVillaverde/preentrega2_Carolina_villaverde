@@ -1,97 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
+   <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Pastelería Huli</title>
-
+     <title> Pastelería Huli </title>
+      <!-- fontawesome-->
+      <script src="https://kit.fontawesome.com/13e182d6ae.js" crossorigin="anonymous"></script>
+     <!--hojas de estilo-->
      <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-     <link rel="stylesheet" href="../bootstrap/css/estilos.css"">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img src="../bootstrap/assets/img/logohuliiii.png" alt="Logo Pastelería Huli">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end" >
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
+     <link rel="stylesheet" href="../bootstrap/css/estilos.css">
+      <!--favicon-->
+      <link rel="icon" type= "image/png" href=./favicon.ico.png>
+   </head>
+   <body>  
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light header">
+          <div class="container-fluid">
+            <a class="logo" href="#"> <img src="../bootstrap/assets/img/logohuliiii.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../bootstrap/pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../bootstrap/pages/info.html">Info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../bootstrap/pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../bootstrap/pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header> 
+      <main class="container ">
+          <h1 class="tituloPrincipal"> ¡Bienvenidos a Pastelería Huli! Donde los sueños dulces se hacen realidad. </h1>
+          <section class="carrusel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner container">
+                <div class="carousel-item active">
+                  <img src="./assets/img/¡Vení a conocernos!.png" class="d-block w-80" alt="Veni a conocer nuestra pastelería, 
+                  ubicada en Av. Montes de Oca 1105, CABA">
                 </div>
-              </nav>
-        </header>
-        <main>
-            <h1> ¡Bienvenidos a Pastelería Huli! Donde los sueños dulces se hacen realidad. </h1>
-            <section>
-             <h2>Te dejamos un video de la decoración de una torta butterfly.</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/WlDjHUd_psY?si=fBs5tqdmmebUB6yp&amp;controls=0&amp;start=7"
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-                picture-in-picture; web-share" allowfullscreen>
-                </iframe>   
-            </section>
-            <section>
-                <h2>¡Vení a conocernos!</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5502261940314!2d-58.37704918778903!3d-34.64080475934648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4c892be671%3A0x757aa2bbcfef1a4b!2sAv.%20Montes%20de%20Oca%201105%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1694483449694!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-        </main>
+                <div class="carousel-item">
+                  <img src="./assets/img/PASTELERIA DE ESPECIALIDAD.png" class="d-block w-80" alt="Pastelería de especialidad, de Lunes a viernes de 9 a 19hs.
+                   Sábados de 9 a 13hs.">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/pedidopersonalizadoo.png" class="d-block w-80" alt="Hacenos tu pedido personalizado, contactate con nosotros por WhatsApp al 1153467589">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+          <section class="h2index">
+            <h2>PASTELERÍA DE AUTOR DE EXCELENCIA</h2>
+            <p>Nos dedicamos a crear productos propios, originales y de primera calidad, combinando sabores, 
+              texturas e ingredientes que generan una experiencia única en el paladar. 
+              Conocé nuestro local ubicado en Av. Montes de Oca 1105, CABA.</p>
+          </section>
+      </main>
 
-        <footer class="container-fluid">
-            <section>
-                <h3>Horarios</h3>
-                <div>
-                    <p> Lunes a viernes de 9 a 19hs.</p>
-                    <p> Sábados de 9 a 13hs.</p>
-                </div>
-            </section>
-            <section>
-                <h3> Seguinos en nuestras Redes Sociales</h3>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram redes"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook redes"></i></a>
-            </section>
-            <section>
-                 <h3>Contacto</h3>
-                <div>
-                        <p>pasteleriahuli@gmail.com</p>
-                </div>
-            </section>
-            <section>  
-                <h3>Ubicación</h3>
-                <div>
-                   <p>Av. Montes de Oca 1105, CABA.</p>
-                </div>
-            </section>
-            <section>
-                 <p>Todos los derechos reservados.</p>  
-            </section>
-            <section>
-                <div>
-                <a href="https//:www.whatsapp.com"><i class="fa-brands fa-whatsapp iconowpp" style="color: #1dd341;"></i></a>
-                </div>
-            </section>
-        </footer>
-        <script src="../bootstrap/"></script>
-    </body>
+      <footer class="container-fluid">
+          <nav>
+            <div class="col-sm-6 col-md-2"><a href="#">Inicio</a></div>
+            <div class="col-sm-6 col-md-2"><a href="../bootstrap/pages/productos.html">Productos</a></div>
+            <div class="col-sm-6 col-md-2"><a href="../bootstrap/pages/info.html">Info</a></div>
+            <div class="col-sm-6 col-md-2"><a href="../bootstrap/pages/nosotros.html">Nosotros</a></div>
+            <div class="col-sm-6 col-md-2"><a href="../bootstrap/pages/contacto.html">Contacto</a></div>
+          </nav>
+          <section class="elementoInlineBlock">
+              <h3>Horarios</h3>
+              <div>
+                  <p> Lunes a viernes de 9 a 19hs.</p>
+                  <p> Sábados de 9 a 13hs.</p>
+              </div>
+          </section>
+          <section class="elementoInlineBlock">
+              <h3> Seguinos en nuestras Redes Sociales</h3>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram redes"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook redes"></i></a>
+          </section>
+          <section class="elementoInlineBlock">
+              <h3>Contacto</h3>
+              <div>
+                      <p>pasteleriahuli@gmail.com</p>
+              </div>
+          </section>
+          <section class="elementoInlineBlock">  
+              <h3>Ubicación</h3>
+              <div>
+                <p>Av. Montes de Oca 1105, CABA.</p>
+              </div>
+          </section>
+          <section class="elementoInlineBlock">
+              <p>Todos los derechos reservados.</p>  
+          </section>
+          <section class="elementoInlineBlock">
+              <div>
+              <a href="https//:www.whatsapp.com"><i class="fa-brands fa-whatsapp iconowpp" style="color: #1dd341;"></i></a>
+              </div>
+          </section>
+      </footer>
+      <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
- 
