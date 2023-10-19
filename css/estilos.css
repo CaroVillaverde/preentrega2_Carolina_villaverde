@@ -57,26 +57,33 @@ main{
     margin-top: 20px;
     text-align: center;   
 }
-.imagenfrente{
+.h2contacto{
+    margin-bottom: 50px;
+}
+.contenedor{
+    display: flex;
+    justify-content:center;
+}
+.imagen{
     margin-left: 30px;
     margin-bottom: 10px;
     border-radius:5px;
-    width: 45%;
-    display: inline-block;
-    object-fit: cover;
+    width: 400px;
+    display: flex;
+    justify-content: center;
 }
 .textoInfo{
     margin-top: 50px;
     margin-left: 10px;
-    width: 48%;
-    display: inline-block;
+    width: 400px
 }
+
 
 footer{
     background-color: #f03786;
 }   
 
-.elementoInlineBlock{/*info pie de pag*/
+.elementoInlineBlock{ /*info pie de pag*/
     display: inline-block;
     width: 20%;
     margin: 20px 1%;
@@ -86,6 +93,11 @@ footer{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.links{
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
 }
 
 
