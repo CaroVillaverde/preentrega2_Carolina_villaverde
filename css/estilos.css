@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Aleo-Italic-Variable";
   src: url("../assets/fonts/Aleo-Italic-VariableFont_wght.ttf");
@@ -19,13 +25,6 @@
   font-family: "Muli-Light";
   src: url("/assets/fonts/Muli-Light.ttf");
 }
-/*reseteo de valores*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 header {
   background-color: #f03786;
   font-family: "Onest-Variable", sans-serif;
@@ -80,6 +79,11 @@ main .tituloPrincipal .h2contacto {
   width: 400px;
 }
 
+.flexible {
+  display: flex;
+  flex-direction: row;
+}
+
 footer {
   background-color: #f03786;
 }
@@ -98,6 +102,54 @@ footer .links {
   margin-top: 20px;
   text-decoration: none;
   list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    font-family: "Muli-Regular", sans-serif;
+    color: black;
+    margin-bottom: 50px;
+  }
+  main .tituloPrincipal {
+    font-family: "Muli-Regular";
+    font-size: 3.5rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  main .tituloPrincipal h1 {
+    font-size: 32px;
+  }
+  main .tituloPrincipal .carrusel {
+    z-index: -10;
+  }
+  main .tituloPrincipal .h2index {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+  }
+  main .tituloPrincipal .h2contacto {
+    margin-bottom: 50px;
+  }
+  main .tituloPrincipal .contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  main .tituloPrincipal .imagen {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  main .tituloPrincipal .textoInfo {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 400px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

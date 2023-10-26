@@ -13,37 +13,37 @@
       <link rel="icon" type= "image/png" href=./favicon.ico.png>
    </head>
    <body>  
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light header">
-          <!--logo-->
-          <div class="container-fluid">
-            <a class="logo" href="#"><img src="../bootstrap/assets/img/logohuliiii.png" alt="Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end ">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../bootstrap/pages/productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../bootstrap/pages/info.html">Info</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../bootstrap/pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../bootstrap/pages/contacto.html">Contacto</a>
-                </li>
-              </ul>
-            </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light header">
+           <!--logo-->
+        <div class="container-fluid">
+          <a class="logo" href="../index.html"> <img src="./assets/img/logohuliiii.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/pages/info.html">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </header> 
-      <main class="container ">
+        </div>
+      </nav>
+    </header>
+      <main class="container">
           <h1 class="tituloPrincipal"> ¡Bienvenidos a Pastelería Huli! Donde los sueños dulces se hacen realidad. </h1>
           <section class="carrusel">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -53,9 +53,9 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
               <div class="carousel-inner container">
-                <div class="carousel-item active">
-                  <img src="./assets/img/¡Vení a conocernos!.png" class="d-block w-80" alt="Veni a conocer nuestra pastelería, 
-                  ubicada en Av. Montes de Oca 1105, CABA">
+                <dv class="carousel-item active">
+                  <img src="./assets/img/¡Vení a conocernos!.png" class="d-block w-80"alt="Veni a conocer nuestra pastelería, 
+                  ubicada en Av. Montes de Oca 1105, CABA" >
                 </div>
                 <div class="carousel-item">
                   <img src="./assets/img/PASTELERIA DE ESPECIALIDAD.png" class="d-block w-80" alt="Pastelería de especialidad, de Lunes a viernes de 9 a 19hs.
@@ -65,14 +65,17 @@
                   <img src="./assets/img/pedidopersonalizadoo.png" class="d-block w-80" alt="Hacenos tu pedido personalizado, contactate con nosotros por WhatsApp al 1153467589">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="container">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>  
+              </div>
+              
             </div>
           </section>
           <section class="h2index">
@@ -92,12 +95,6 @@
               <li class="col-sm-6 col-md-2"><a href="../bootstrap/pages/nosotros.html">Nosotros</a></li>
               <li class="col-sm-6 col-md-2"><a href="../bootstrap/pages/contacto.html">Contacto</a></li>
             </ul>
-            <!--
-            <div class="col-sm-6 col-md-2"><a href="#">Inicio</a></div>
-            <div class="col-sm-6 col-md-2"><a href="../bootstrap/pages/productos.html">Productos</a></div>
-            <div class="col-sm-6 col-md-2"><a href="../bootstrap/pages/info.html">Info</a></div>
-            <div class="col-sm-6 col-md-2"><a href="../bootstrap/pages/nosotros.html">Nosotros</a></div>
-            <div class="col-sm-6 col-md-2"><a href="../bootstrap/pages/contacto.html">Contacto</a></div>-->
           </nav>
           <section class=" contenedor elementoInlineBlock">
               <h3>Horarios</h3>
